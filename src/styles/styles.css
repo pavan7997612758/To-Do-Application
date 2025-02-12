@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* App Container */
+  .app {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  /* Header */
+  h1 {
+    color: #333;
+  }
+  
+  /* Task Form */
+  .task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .task-form input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .task-form button {
+    padding: 10px 15px;
+    border: none;
+    background: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-form button:hover {
+    background: #218838;
+  }
+  
+  /* Task List */
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Task Item */
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .task-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .task-item .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .task-item button {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-item button:hover {
+    background: #c82333;
+  }
+  
+  /* Filters */
+  .filters {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .filters button {
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .filters button:hover {
+    background: #0056b3;
+  }
+  
